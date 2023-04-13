@@ -1,0 +1,27 @@
+descriptor:
+  - 'Mon - Sat 8 am - 6.30 pm' : 'You are not allowed to wait from Monday to Saturday between 8 am and 6.30 pm\n
+                                  You can load and unload between 8 am and 6.30 pm\n
+                                  This information is applicable in the direction of the arrow if exists'
+  - 'Mon 5 Sat 8 am 5 6.30 pm': 'You are not allowed to wait from Monday to Saturday between 8 am and 6.30 pm\n
+                                 You can load and unload between 8 am and 6.30 pm if exists\n
+                                 This information is applicable in the direction of the arrow.'
+  - 'For 2 miles': 'There is a either hazard or prohibition will continue for 2 miles. Be careful!'
+  - 'End': 'Restriction ends at this point'
+  - 'RED ROUTE No stopping Mon - Sat 7am - 7pm': 'This is a red route\n
+                                                  You cannot stop or park between 7am and 7pm for any reason'
+  - 'RED ROUTE No stopping Mon 7 Sat 7am - 7pm': 'This is a red route\n
+                                                  You cannot stop or park between 7am and 7pm for any reason'
+  - 'RED ROUTE No stopping at any time except buses': 'You cannot stop at any time for any reason. Buses can stop'
+  - 'RED ROUTE CLEARWAY No stopping': 'You have reached an entrance to the clearway. You can not stop or park here'
+  - 'No stopping 11pm " 5 am except taxis' : 'You cannot stop between 11 pm and 5 am. Taxis can stop'
+  - 'At any time except taxis 11pm 5 5am' : 'You cannot stop here for any reason. Taxis can stop'
+  - 'No waiting 11pm " 5am except taxis Goods vehicles loading only Mon Sat 10 am - 4 pm' : 'The top panel of this sign tells you that no stopping is permitted at any time for any reason with the exception of taxis who may wait during the displayed times between 11 pm - 5 am. 
+                                                                                             The bottom panel tells you that the carriageway is only to be used by goods vehicles for loading and unloading during the displayed times between 10 am - 4pm'
+  - 'This sign tells you that you are at a taxi rank and the number of taxis who may stand.'
+
+
+
+
+
+
+
