@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Park with Relief App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px;
+      }
+      h1 {
+        margin: 0;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      input[type="file"] {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+      }
+      button[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      .result {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .result img {
+        max-width: 500px;
+        max-height: 500px;
+        margin-bottom: 20px;
+      }
+      .result p {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Park with Relief App</h1>
+    </header>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+      <label for="file">Click here to select an image file:</label>
+      <input type="file" name="file" id="file" onchange="previewImage(event)">
+      <button type="submit">Process Image</button>
+    </form>
+      <div class="result">
+        <img id="preview">
+      </div>
+
+      <script>
+          function previewImage(event) {
+              var reader = new FileReader();
+              reader.onload = function() {
+                  var preview = document.getElementById('preview');
+                  preview.src = reader.result;
+              }
+           'reader', reader.readAsDataURL(event.target.files[0]);
+          }
+
+      </script>
+  </body>
+</html>
